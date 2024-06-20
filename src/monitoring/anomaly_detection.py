@@ -7,8 +7,18 @@ Copyright (c) 2024 Suriyaa Sundararuban
 Copyright (c) 2024 Elara Aerospace team
 """
 
+# pylint: disable=too-few-public-methods
+
 class AnomalyDetector:
+    """
+    A class used to detect anomalies in sensor data.
+    """
+    
     def detect(self, sensor_data):
+        """
+        Analyzes the sensor data and detects any anomalies
+        based on predefined thresholds.
+        """
         anomalies = {}
 
         if sensor_data['temperature'] < -40 or sensor_data['temperature'] > 120:
