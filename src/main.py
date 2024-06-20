@@ -15,6 +15,10 @@ from monitoring.contingency_actions import ContingencyActions
 logging.basicConfig(filename='logs/rocket_monitor.log', level=logging.INFO)
 
 def main():
+    """
+    Main function to read sensor data, detect anomalies,
+    and execute contingency actions.
+    """
     sensor_module = SensorModule()
     anomaly_detector = AnomalyDetector()
     contingency_actions = ContingencyActions()
@@ -24,7 +28,7 @@ def main():
         anomalies = anomaly_detector.detect(sensor_data)
 
         if anomalies:
-            logging.warning(f"Anomalies detected: {anomalies}")
+            logging.warning("Anomalies detected: %s", anomalies)
             contingency_actions.execute(anomalies)
 
 if __name__ == "__main__":
