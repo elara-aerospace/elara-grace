@@ -7,6 +7,7 @@ Copyright (c) 2024 Suriyaa Sundararuban
 Copyright (c) 2024 Elara Aerospace team
 """
 
+# pylint: disable=E0401
 # pylint: disable=too-few-public-methods
 
 from rocket_systems.actuators import ActuatorModule
@@ -16,7 +17,7 @@ class ContingencyActions:
     """
     A class used to execute contingency actions based on detected anomalies.
     """
-    
+
     def __init__(self):
         """
         Initializes the ContingencyActions with instances of ActuatorModule
