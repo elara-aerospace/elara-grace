@@ -21,7 +21,7 @@ class CommunicationsModule:
     send_data(data):
         Sends data to the communication system.
     """
-    
+
     def send_data(self, data):
         """
         Sends data to the communication system.

@@ -21,7 +21,7 @@ class ActuatorModule:
     activate_parachute():
         Activates the parachute.
     """
-    
+
     def activate_parachute(self):
         """
         Activates the parachute by sending the appropriate command to the actuator.

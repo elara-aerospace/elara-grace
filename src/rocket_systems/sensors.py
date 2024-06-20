@@ -18,7 +18,7 @@ class SensorModule:
     """
     A class used to read sensor data from the rocket system.
     """
-    
+
     def read_sensors(self):
         """
         Reads the real-time values from the sensors.
