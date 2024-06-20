@@ -7,7 +7,6 @@ Copyright (c) 2024 Suriyaa Sundararuban
 Copyright (c) 2024 Elara Aerospace team
 """
 
-# Disable 
 # pylint: disable=E0401
 
 import logging
