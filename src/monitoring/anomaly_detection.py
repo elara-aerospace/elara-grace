@@ -13,7 +13,7 @@ class AnomalyDetector:
     """
     A class used to detect anomalies in sensor data.
     """
-    
+
     def detect(self, sensor_data):
         """
         Analyzes the sensor data and detects any anomalies
