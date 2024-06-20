@@ -8,7 +8,6 @@ Copyright (c) 2024 Elara Aerospace team
 """
 
 # pylint: disable=E0401
-# pylint: disable=E305
 
 import logging
 from rocket_systems.sensors import SensorModule
