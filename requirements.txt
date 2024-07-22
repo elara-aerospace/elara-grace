@@ -1,4 +1,4 @@
-pylint==3.2.3
+pylint==3.2.6
 numpy==1.24.4
 pandas==2.0
 pytest==8.2.2
